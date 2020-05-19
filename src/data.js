@@ -18,5 +18,6 @@ export const sortOrder = (byOrder, order, pokemonData) => {
 export const filterByType = (pokemonType, arrayType, pokemonData) => pokemonData.filter(pokemon => pokemon[arrayType].includes(pokemonType));
 
 
-
-
+// função de Porcentagem 
+export const porcentPokemon = (filterByType, pokemonData) => (filterByType / pokemonData)*100;
+   
